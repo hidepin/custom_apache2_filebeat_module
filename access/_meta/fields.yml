@@ -1,0 +1,9 @@
+- name: access
+  type: group
+  description: >
+    access
+  fields:
+    - name: example
+      type: keyword
+      description: >
+        Example field

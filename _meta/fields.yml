@@ -1,0 +1,9 @@
+- key: custom_apache2
+  title: "custom_apache2"
+  description: >
+    custom_apache2 Module
+  fields:
+    - name: custom_apache2
+      type: group
+      description: >
+      fields:
