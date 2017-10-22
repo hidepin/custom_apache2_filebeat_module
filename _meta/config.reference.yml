@@ -1,0 +1,16 @@
+#- module: custom_apache2
+  # Access logs
+  #access:
+    #enabled: true
+
+    #var.paths:
+
+    #prospector:
+
+  # Error logs
+  #error:
+    #enabled: true
+
+    #var.paths:
+
+    #prospector:

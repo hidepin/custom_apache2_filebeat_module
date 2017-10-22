@@ -1,0 +1,12 @@
+- module: custom_apache2
+  # Access logs
+  access:
+    enabled: true
+
+    #var.paths:
+
+  # Error logs
+  error:
+    enabled: true
+
+    #var.paths:

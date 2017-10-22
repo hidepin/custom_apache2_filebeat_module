@@ -2,8 +2,10 @@
   title: "custom_apache2"
   description: >
     custom_apache2 Module
+  short_config: true
   fields:
     - name: custom_apache2
       type: group
       description: >
+        Apache2 fields.
       fields:

@@ -1,0 +1,10 @@
+module_version: 1.0
+
+var:
+  - name: paths
+    default:
+      - /var/log/httpd/error_log*
+      - /var/log/httpd/ssl_error_log*
+
+ingest_pipeline: ingest/default.json
+prospector: config/error.yml
