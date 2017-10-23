@@ -6,5 +6,5 @@ var:
       - /var/log/httpd/error_log*
       - /var/log/httpd/ssl_error_log*
 
-ingest_pipeline: ingest/default.json
+ingest_pipeline: ingest/pipeline.json
 prospector: config/error.yml

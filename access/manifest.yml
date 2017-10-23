@@ -6,7 +6,7 @@ var:
       - /var/log/httpd/access_log*
       - /var/log/httpd/ssl_access_log*
 
-ingest_pipeline: ingest/default.json
+ingest_pipeline: ingest/pipeline.json
 prospector: config/access.yml
 
 requires.processors:
