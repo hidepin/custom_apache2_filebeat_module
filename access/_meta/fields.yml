@@ -37,6 +37,14 @@
       type: keyword
       description: >
         The HTTP referrer.
+    - name: ssl_protocol
+      type: keyword
+      description: >
+        The name of the ssl_protocol
+    - name: ssl_cipher
+      type: keyword
+      description: >
+        The name of the ssl_cipher
     - name: duration
       type: long
       description: >
