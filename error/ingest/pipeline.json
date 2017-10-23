@@ -15,11 +15,6 @@
       }
     },
     {
-      "remove":{
-        "field": "message"
-      }
-    },
-    {
       "rename": {
         "field": "apache2.error.message1",
         "target_field": "apache2.error.message",
