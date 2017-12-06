@@ -20,6 +20,10 @@
       type: keyword
       description: >
         The request HTTP URL.
+    - name: urlparam
+      type: keyword
+      description: >
+        The request HTTP URL PARAM.
     - name: http_version
       type: keyword
       description: >
@@ -49,6 +53,10 @@
       type: long
       description: >
         The number of the server response time.
+    - name: x-forwarded-for
+      type: keyword
+      description: >
+        X-Forwarded-For Client IP address.
     - name: agent
       type: text
       description: >
@@ -124,4 +132,3 @@
           type: keyword
           description: >
             The city name.
-
